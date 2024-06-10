@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0rem;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+}
+
+.headerHero{
+    background-image: url(./Images/heroBack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+}
+
+li{
+    list-style: none;
+    color: white;
+    font-family: Montserrat;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+    align-items: center;
+}
+
+.btn button{
+    background-color: #1BC786;
+    font-family:Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.86px;
+    border: none;
+    padding: .5rem 1.5rem ;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    font-family: Montserrat;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.heroText h2{
+    font-family: Montserrat;
+font-size: 40px;
+font-weight: 900;
+line-height: 65.57px;
+color: white;
+}
+
+.heroText p{
+    font-family:Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 24.59px;
+color: #fff;
+padding: .5rem 0;
+}
+
+.heroImage img{
+    width: 100%;
+    margin-top:6rem;
+}
+
+.heroText{
+    width: 40%;
+    margin-top: 8rem; 
+
+}
+
+.heroImage{
+    width: 40%;
+}
+
+.heroBtn button{
+    font-family: Montserrat;
+    font-size: 16px;
+    border: 1px solid white;
+    padding: .5rem 2rem;
+    border-radius: 50px;
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    margin-right:1.1rem;
+}
+
+.heroBtn button:hover{
+    background: #fff;
+    color: blue;
+}
+
+.heroBtn{
+    margin-bottom: 2rem;
+}
+
+.heroForm{
+    width: 100%;
+}
+
+.heroForm Input{
+    width: 70%;
+    padding: .7rem;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.heroForm button{
+    width: 20%;
+    padding: .7rem;
+    background:  #1BC786;
+    color: #fff;
+    cursor: pointer;
+    border:#1BC786 ;
+    margin-left: -.3rem;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.innercontainer{
+    width: 80%;
+    margin: auto;
+}
+
+.affiliation{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.topAffiliate h2{
+font-family: Montserrat;
+font-size: 36px;
+/* font-weight: 900; */
+line-height: 49.18px;
+color: #043CAA;
+}
+
+.lines{
+    display: flex;
+    width: 10%;
+    margin: auto;
+}
+
+.blue{
+    width: 45.5px;
+    border:2px solid #043CAA;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.green{
+    width: 45.5px;
+    border:2px solid#1BC786  ;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.affiliateImages{
+    display: flex;
+    gap: 5rem;
+    width: 40%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.topBenefits h2{
+font-family: Montserrat;
+font-size: 36px;
+/* font-weight: 900; */
+line-height: 49.18px;
+color: #043CAA;
+text-align: center;
+}
+
+.medicine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option{
+     display: flex; 
+     align-items: center;
+     gap: .7rem;
+     margin-top:1rem ;
+}
+.Opt{
+    display: flex; 
+    align-items: center;
+    gap: .7rem;
+    margin-top:1rem ;
+}
+
+.opti{
+    display: flex; 
+    align-items: center;
+    gap: .7rem;
+    margin-top:1rem ;
+}
+
+.optionText p{
+ font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.59px;
+}
+
+.medicineText h5{
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 800;
+line-height: 32.78px;
+color:#043CAA ;
+width: 60%;
+padding-bottom: 1rem;
+}
+.cossyText h5{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+    color:#043CAA ;
+    width: 60%;
+    padding-bottom: 1rem;
+}
+.medicineText button{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(27, 199, 104, 1);
+    padding: 1rem 2rem;
+    border: 1px solid rgba(27, 199, 104, 1); 
+    background: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
+.optiText button{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(27, 199, 104, 1);
+    padding: 1rem 2rem;
+    border: 1px solid rgba(27, 199, 104, 1); 
+    background: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
+.medicineText button:hover{
+    background: rgba(27, 199, 104, 1);
+    color: white;
+}
+.medicin{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.medicText button{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(27, 199, 104, 1);
+    padding: 1rem 2rem;
+    border: 1px solid rgba(27, 199, 104, 1); 
+    background: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.medicine{
+    display: flex;
+    gap: 4rem;
+}
+
+.OptText button{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(27, 199, 104, 1);
+    padding: 1rem 2rem;
+    border: 1px solid rgba(27, 199, 104, 1); 
+    background: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+
+
+.optio{
+    display: flex; 
+    align-items: center;
+    gap: .7rem;
+    margin-top:1rem ;
+}
+.Picture{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.PictureText button{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(27, 199, 104, 1);
+    padding: 1rem 2rem;
+    border: 1px solid rgba(27, 199, 104, 1); 
+    background: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.PictureImage{
+    display: flex;
+    justify-content: space-between;
+    text-align:right;
+    align-items: center;
+}
+
+.PictureText h5{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+    color:#043CAA ;
+    width: 60%;
+    padding-bottom: 1rem;
+}
+.optionTex p{
+    font-family: Montserrat;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 24.59px;
+   }
+
+   .Medic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.medicText h5{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.78px;
+    color:#043CAA ;
+    width: 60%;
+    padding-bottom: 1rem;
+}
+.OptText p{
+    font-family: Montserrat;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 24.59px;
+   }
+
+.clients{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
+}
+.line{
+    display: flex;
+    width: 40%;
+    margin: auto;
+}
+.clientText h2{
+    font-family: montserrat;
+    font-size: 36px;
+    line-height: 49.19px;
+    margin-bottom: .5rem;
+}
+.clientText p{
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    padding: 2rem 0 1rem 0;
+    width: 90%;
+    color: rgba(122, 122, 122, 1);
+}
+.clientText h5{
+    font-family: montserrat;
+    font-size: 18px;
+    line-height: 49.18px;
+    color: rgba(4, 60, 170, 1);
+    padding-bottom: 2rem;
+}
+.clientsImage img{
+    width: 100%;
+}
+.clientImage{
+    width: 160%;
+}
+.clientText{
+    width: 40%;
+}
+.cossyImage{
+    display: flex;
+    justify-content: space-between;
+    text-align:right;
+    align-items: center;
+}
+footer{
+    background: rgba(4, 60, 170, 1);
+}
+.footContainer{
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0;
+}
+.signup{
+    display: flex;
+    justify-content: space-between;
+}
+.signupText h3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+.signupText p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 24.59px;
+    color: #fff;
+}
+.signupInput button{
+    padding: .7rem;
+    background: rgba(27,199,104,1);
+    color: #fff;
+    cursor: pointer;
+    border: rgba(27, 199, 104, 1);
+    margin-left: -.3rem;
+    border-radius: 0px 50px 50px 0px;
+    width: 25%;
+    font-family: MONTSERRAT;
+}
+.signup input{
+    padding: .7rem;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+}
+.signupInput label{
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    color: #fff;
+}
+.signupText{
+    width: 40%;
+}
+.signupInput{
+    width: 40%;
+}
+
+
+
+
+
+
+
+/* Assignment 
+1. create a webpage using HTML and CSS, talk about your experience in class so far
+and your picture and a link pointing to your social media
+
+2. Create a table showing names and phone numbers of your colleagues in class
+
+3. List out 10 names of countries in Africa using ordered list
+*/
+
+
+
+
+
+
+
+    
+
